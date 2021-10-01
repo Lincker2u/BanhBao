@@ -1,0 +1,1049 @@
+/*GENERAL*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Monotype Corsiva;
+}
+html{
+  background-color: black;
+  font-family: Monotype Corsiva;
+;
+}
+section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../imagessite/accueil.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  transition: 1s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+
+}
+
+section .box{
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  overflow: hidden;
+  color: #000;
+  border: 2px white solid;
+}
+
+
+section .box:before{
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background-attachment: fixed;
+  filter: blur(10px);
+  background-size: cover;
+  height: 50vh;
+  transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 60s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+
+}
+
+section .box h1{
+text-align: center;
+position: relative;
+margin: 0 0 20px;
+padding: 0;
+font-size: 20px;
+z-index: 2;
+color: white;
+text-decoration: bold;
+}
+
+@keyframes animate{
+  0%{
+    background-image: url('../imagessite/AvantMag.jpg');
+  }
+  20%{
+    background-image: url('../imagessite/AvantMag.jpg');
+  }
+  40%{
+    background-image: url('../imagessite/AvantMag.jpg');
+  }
+  60%{
+    background-image: url('../imagessite/AvantMag.jpg');
+  }
+  80%{
+    background-image: url('../imagessite/AvantMag.jpg');
+  }
+  100%{
+    background-image: url('../imagessite/AvantMag.jpg');
+  }
+}
+
+.box a{
+text-decoration: none;
+}
+
+
+
+.boxbb{
+  background-color: rgb(247, 164, 247);
+}
+
+.tracer{
+  background-color: rgb(247, 164, 247);
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 100px;
+  text-align:center;
+  color: black;
+  text-decoration: rgb(247, 164, 247);
+  text-shadow: rgb(247, 164, 247);
+  font-style: oblique ;
+  font-weight: bold ;
+  
+}
+.univers{
+  font-size: 40px;
+  text-align: center;
+  
+  padding-bottom:;
+  color: black;
+  
+}
+.accueiltout{
+position:relative;
+color: rgb(247, 164, 247);
+}
+
+#art1{
+  background-color: rgb(247, 164, 247);
+}
+.menu {
+  width: auto;
+  background-color: black;
+}
+
+.menu div {
+  color: black;
+  margin: 0px;
+  height: 50px;
+  width: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 100px;
+  width: 100%;
+}
+
+.menu a{
+  text-decoration:none;
+  color: black;
+  height: 50px;
+}
+.emporter{ background: url('../imagessite/emporter2.png');}
+.surplace{ background: url('../imagessite/surplace2.PNG');}
+.livraison{ background: url('../imagessite/livraison2.PNG');}
+.contact{ background: url('../imagessite/contact3.PNG');}
+
+.contact, .livraison, .surplace, .emporter{
+  transition: transform .5s;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: start;
+  box-shadow: 2px 5px 15px black;
+  width: auto;
+
+}
+
+.topp{
+  color: black;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+footer{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer h2{
+  padding-top: 10px;
+  background-color: black;
+  color: rgb(247, 164, 247);
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+}
+footer p{
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: rgb(247, 164, 247);
+  font-size: 10px;
+  text-align: center;
+}
+.nav{
+  background-color: rgb(247, 164, 247);
+  color: black;
+  width: 100%;
+  position: fixed;
+  
+}
+.titre{
+  float:left;
+  padding-left: 25px;
+  line-height: 30px;
+  font-size: 25px;
+}
+.titre a{
+  text-decoration: none;
+  color: black;
+}
+.menuu{
+  line-height: 20px;
+  text-decoration: none;
+  background-color: rgb(247, 164, 247);
+}
+li{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.phrasegeneral{
+  transition: transform .5s;
+  width: auto;
+  text-align: center;
+  box-shadow: 2px 2px 15px black;
+  padding: 0px 10px 10px 0px;
+  background-color: black;
+  color: rgb(247, 164, 247);
+}
+.phrasegeneral h2{
+  font-size: 20px;
+}
+.phrasegeneral p{
+  font-size: 10px;
+}
+.phrasegeneral2{
+  transition: transform .5s;
+  width: auto;
+  text-align: center;
+  box-shadow: 2px 2px 15px rgb(247, 164, 247);
+  padding: 10px 30px 10px 30px;
+  margin-top: 100px;
+  background-color: black;
+  color: rgb(247, 164, 247);
+}
+.phrasegeneral2 p{
+  font-size: 15px;
+}
+.phrasegeneral2 h2{
+  font-size: 15px;
+}
+/*CONTACT*/
+
+.phrasegeneral3{
+  transition: transform .5s;
+  width: auto;
+  text-align: center;
+  box-shadow: 2px 2px 15px rgb(247, 164, 247);
+  padding: 10px 30px 10px 30px;
+  margin-top: 100px;
+  margin-bottom:-200px ;
+  background-color: black;
+  color: rgb(247, 164, 247);
+}
+.phrasegeneral3 p{
+  font-size: 0px;
+}
+.phrasegeneral3 h2{
+  font-size: 0px;
+}
+
+.presentationcontact{
+  margin-top: 10px;
+  line-height: 30px;
+  width: 80%;
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(247, 164, 247);
+  position: center;
+}
+
+.logo img{
+  height: 50px;
+  font-size: 10px;
+  margin-right: 20px;
+ 
+}
+
+.logo a{
+  text-decoration: none;
+  color: #000;
+  background-color: #000;
+  text-align: center;
+ 
+}
+
+.accueilm1{
+  background-image:url('');
+   background-repeat : no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-color: black;
+   
+  }
+  
+.accueilm{
+  background-image: url('../imagessite/accueil.jpg');
+  height: 400px;
+  width: 80%;
+  background-size: cover;
+  background-position: center;
+  }
+
+
+
+/* A EMPORTER, LIVRAISONS, SURPLACE */
+
+.h1emporter {
+  color: rgb(247, 164, 247); 
+  font-size: 10px;
+  padding: 50px;
+  margin-bottom: -150px;
+ }
+ .photocontact{
+  background-image: url('../imagessite/AvantMag2.jpg');
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position:  center;
+  
+  box-shadow: 2px 2px 15px v;}
+  .photoemporter{
+    background-image: url('../imagessite/service.jpg');
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position:  center;
+    
+    box-shadow: 2px 2px 15px rgb(247, 164, 247);}
+.photosurplace{
+      background-image: url('../imagessite/surplacephoto.jpg');
+      height: 200px;
+      width: 100%;
+      background-size: cover;
+      background-position:  center;
+      
+      box-shadow: 2px 2px 15px rgb(247, 164, 247);} 
+.photolivraison{
+        background-image: url('../imagessite/livraisonphoto.jpg');
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        background-position:  center;
+        
+        box-shadow: 2px 2px 15px rgb(247, 164, 247);} 
+
+/*Liens rapides*/
+
+.liensrapides{
+  transition: transform .5s;
+  margin: 20px;
+  width: 10px;
+  margin-right: auto;
+  text-align: center;
+  position: center;
+}
+.liensrapides p{
+  margin: 10px 0px 0px 190px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;;
+
+}
+
+.liensrapides a{
+  text-decoration: none;
+  color: rgb(247, 164, 247);
+  text-align: center;
+}
+
+/*IMAGES LIENS RAPIDES*/
+
+.entree{
+  height: 00px ;
+  background-image: url('../imagessite/banhbao.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+background-color: white;}
+
+.salade{
+  height: 00px;
+  background-image: url('../imagessite/gaboun.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;}
+.plats{
+  height: 00px;
+  width: auto;
+  background-image: url('../imagessite/porccaramel.jpg');
+  background-position: center;
+  background-size: auto;
+  background-repeat : no-repeat;
+  background-size: cover;
+ background-color: white;;
+}
+.accompagnements{
+  height: 00px;
+  background-image: url('../imagessite/rizcantonnais.JPG');
+  background-position: center;
+  background-size: auto;
+  background-repeat : no-repeat;
+  background-size: cover;
+ background-color: white;;
+}
+.dessert{
+  height: 00px;
+  background-image: url('../imagessite/perledecoco.JPG');
+  background-position: center;
+  background-size: auto;
+  background-repeat : no-repeat;
+  background-size: cover;
+ background-color: white;;
+}
+.boissons{
+  height: 00px;
+  background-image: url('../imagessite/bieres.jpg');
+  background-position: center;
+  background-size: auto;
+  background-repeat : no-repeat;
+  background-size: cover;
+ background-color: white;
+}
+.menus{
+  height: 00px;
+  background-image: url('../imagessite/accueil.jpg');
+  background-position: center;
+  background-size: auto;
+  background-repeat : no-repeat;
+  background-size: cover;
+ background-color: white;;
+}
+
+/* CSS IMAGES */
+
+.basm{
+  justify-content: center;
+  width: auto;
+  display: flex;
+  }
+
+.basmlr{
+justify-content:center;
+width: auto;
+text-align: center;
+  }
+
+.block{
+  display:block;
+}
+
+.inline-block{
+  display:inline-block;
+}
+
+.plats1{
+  margin: 5px;
+  width: 150px;
+  box-shadow: 2px 2Px 15px rgb(247, 164, 247);
+  background-color: black;
+}
+
+.plats1 p{
+  margin: 5px 0 5px 0;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(247, 164, 247);
+}
+
+
+
+/*A EMPORTER SUR PLACE LIVRAISON*/
+
+/*PHOTOS PLATS*/
+
+.bientot{
+  height: 150px;
+  background-image: url('../imagessite/bientot.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+/*ENTREES*/
+
+.banhbao{
+  height: 150px;
+  background-image: url('../imagessite/banhbao.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.beignetpoulet{
+  height: 150px;
+  background-image: url('../imagessite/beignetpoulet.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.brochettes{
+  height: 150px ;
+  background-image: url('../imagessite/brochettes.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.crabefarci{
+  height: 150px ;
+  background-image: url('../imagessite/crabefarci.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.nemsa{
+  height: 150px;
+  background-image: url('../imagessite/nemsa.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.nemsp{
+  height: 150px;
+  background-image: url('../imagessite/nemsp.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.nemcrabe{
+  height: 150px;
+  background-image: url('../imagessite/nemcrabes.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.hakao{
+  height: 150px ;
+  background-image: url('../imagessite/hakao.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.siumai{
+  height: 150px ;
+  background-image: url('../imagessite/siumai.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.nemslegume{
+  height: 150px ;
+  background-image: url('../imagessite/nemslegume.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}.sammoussa{
+  height: 150px ;
+  background-image: url('../imagessite/sammoussa.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}.beignetcrevette{
+  height: 150px ;
+  background-image: url('../imagessite/beignetcrevette.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.nemimperial{
+  height: 150px ;
+  background-image: url('../imagessite/nemimperial.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.beignetcrevette{
+  height: 150px ;
+  background-image: url('../imagessite/beignetcrevette.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.ailesdepoulet{
+  height: 150px ;
+  background-image: url('../imagessite/ailesdepoulet.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.nemscrevette{
+  height: 150px ;
+  background-image: url('../imagessite/nemscrevette.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.patechinois{
+  height: 150px ;
+  background-image: url('../imagessite/patechinois.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.ailesdepouletfrit{
+  height: 150px ;
+  background-image: url('../imagessite/ailesdepouletfrit.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.rouleau{
+  height: 150px ;
+  background-image: url('../imagessite/rouleau.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.chips{
+  height: 150px ;
+  background-image: url('../imagessite/chips.PNG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+/*SALADES*/
+
+
+.saladecrevettes{
+  height: 150px ;
+  background-image: url('../imagessite/saladecrevettes.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.saladecrabe{
+  height: 150px ;
+  background-image: url('../imagessite/saladecrabe.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.boboun{
+  height: 150px ;
+  background-image: url('../imagessite/boboun.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.gaboun{
+  height: 150px ;
+  background-image: url('../imagessite/gaboun.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.saladesojapoulet{
+  height: 150px ;
+  background-image: url('../imagessite/saladesojapoulet.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.saladesojacrevette{
+  height: 150px ;
+  background-image: url('../imagessite/saladesojacrevette.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+
+/*PLATS*/
+
+
+.boeufsate{
+  height: 150px;
+  background-image: url('../imagessite/boeufsate.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.porcbambou{
+  height: 150px ;
+  background-image: url('../imagessite/porcbambou.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.pouletcurry{
+  height: 150px ;
+  background-image: url('../imagessite/pouletcurry.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.pouletg{
+  height: 150px ;
+  background-image: url('../imagessite/pouletg.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.pouletp{
+  height: 150px ;
+  background-image: url('../imagessite/pouletp.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.crevettesaigre{
+  height: 150px ;
+  background-image: url('../imagessite/crevettesaigre.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.canard{
+  height: 150px ;
+  background-image: url('../imagessite/canard.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.porccaramel{
+  height: 150px ;
+  background-image: url('../imagessite/porccaramel.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.porcpiquante{
+  height: 150px ;
+  background-image: url('../imagessite/porcpiquante.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.boeufoignons{
+  height: 150px ;
+  background-image: url('../imagessite/boeufoignons.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.calamar{
+  height: 150px ;
+  background-image: url('../imagessite/calamar.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+/*ACCOMPAGNEMENTS*/
+
+
+
+.rizcrevette{
+  height: 150px ;
+  background-image: url('../imagessite/rizcrevette.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.rizcantonnais{
+  height: 150px;
+  background-image: url('../imagessite/rizcantonnais.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.nouillesnature{
+  height: 150px;
+  background-image: url('../imagessite/nouillesnature.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.vermicelles{
+  height: 150px ;
+  background-image: url('../imagessite/vermicelles.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.nouillespoulet{
+  height: 150px ;
+  background-image: url('../imagessite/nouillespoulet.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.legumessautes{
+  height: 150px ;
+  background-image: url('../imagessite/legumessautes.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+/*DESSERT*/
+
+.banhbaochoco{
+  height: 150px ;
+  background-image: url('../imagessite/banhbaochoco.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.perledecoco{
+  height: 150px ;
+  background-image: url('../imagessite/perledecoco.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.bblotus{
+  height: 150px ;
+  background-image: url('../imagessite/bblotus.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.mochicc{
+  height: 150px ;
+  background-image: url('../imagessite/mochicc.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.saladefruit{
+  height: 150px ;
+  background-image: url('../imagessite/saladefruit.PNG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+/*BOISSONS*/
+
+.eau{
+  height: 150px ;
+  background-image: url('../imagessite/eaupg.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.sodas{
+  height: 150px ;
+  background-image: url('../imagessite/sodas.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.jusexo{
+  height: 150px ;
+  background-image: url('../imagessite/jusexo.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.aloeverra{
+  height: 150px ;
+  background-image: url('../imagessite/aloeverra.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.bieres{
+  height: 150px ;
+  background-image: url('../imagessite/bieres.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.thej{
+  height: 150px ;
+  background-image: url('../imagessite/thej.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.thev{
+  height: 150px ;
+  background-image: url('../imagessite/thev.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.them{
+  height: 150px ;
+  background-image: url('../imagessite/them.JPG');
+  background-position: center;
+  background-size: contain;
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+
+/*FIN*/
